@@ -403,8 +403,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.denandreychuk.ScuffedUI;
+				MARKETING_VERSION = 0.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pimine.ScuffedUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -433,8 +433,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.denandreychuk.ScuffedUI;
+				MARKETING_VERSION = 0.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pimine.ScuffedUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
