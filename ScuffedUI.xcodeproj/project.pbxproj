@@ -22,7 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		B70B36762464739B00E3E547 /* SCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B36752464739B00E3E547 /* SCButton.swift */; };
-		B746FAE32461EB3000259A58 /* SCVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B746FAE22461EB3000259A58 /* SCVerticalButton.swift */; };
 		B74E6CF72464140200103777 /* SCToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E6CF62464140200103777 /* SCToggleButton.swift */; };
 		B74E6CFB24641B1100103777 /* SCToggleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E6CFA24641B1100103777 /* SCToggleImageView.swift */; };
 		B768DAC12475E5A200FA3B79 /* SCRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768DAC02475E5A200FA3B79 /* SCRoundedButton.swift */; };
@@ -38,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		B70B36752464739B00E3E547 /* SCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCButton.swift; sourceTree = "<group>"; };
-		B746FAE22461EB3000259A58 /* SCVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCVerticalButton.swift; sourceTree = "<group>"; };
 		B74E6CF62464140200103777 /* SCToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCToggleButton.swift; sourceTree = "<group>"; };
 		B74E6CFA24641B1100103777 /* SCToggleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCToggleImageView.swift; sourceTree = "<group>"; };
 		B768DAC02475E5A200FA3B79 /* SCRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRoundedButton.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 			children = (
 				B70B36752464739B00E3E547 /* SCButton.swift */,
 				B74E6CF62464140200103777 /* SCToggleButton.swift */,
-				B746FAE22461EB3000259A58 /* SCVerticalButton.swift */,
 				B768DAC02475E5A200FA3B79 /* SCRoundedButton.swift */,
 			);
 			path = Buttons;
@@ -247,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B74E6CF72464140200103777 /* SCToggleButton.swift in Sources */,
-				B746FAE32461EB3000259A58 /* SCVerticalButton.swift in Sources */,
 				B74E6CFB24641B1100103777 /* SCToggleImageView.swift in Sources */,
 				B7E86D61245E15DD0039A56D /* SCVStack.swift in Sources */,
 				B778299A245C4290009765B5 /* AdaptiveUI.swift in Sources */,
