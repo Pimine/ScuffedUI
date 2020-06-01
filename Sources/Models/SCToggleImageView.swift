@@ -52,7 +52,6 @@ open class SCToggleImageView: UIImageView {
     }
     
     private func commonInit() {
-        isHighlighted.toggle()
         contentMode = .scaleAspectFit
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(onTouchUpInside))

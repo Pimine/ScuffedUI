@@ -58,7 +58,6 @@ open class SCToggleButton: SCButton {
     private func commonInit() {
         setImage(offImage, for: .normal)
         setImage(onImage, for: .selected)
-        isSelected.toggle()
         
         addTarget(self, action: #selector(onButtonPressed), for: .touchUpInside)
     }
