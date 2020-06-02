@@ -22,7 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		B70B36762464739B00E3E547 /* SCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B36752464739B00E3E547 /* SCButton.swift */; };
-		B74E6CF72464140200103777 /* SCToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E6CF62464140200103777 /* SCToggleButton.swift */; };
+		B74E6CF72464140200103777 /* SCRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E6CF62464140200103777 /* SCRadioButton.swift */; };
 		B74E6CFB24641B1100103777 /* SCToggleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74E6CFA24641B1100103777 /* SCToggleImageView.swift */; };
 		B768DAC12475E5A200FA3B79 /* SCRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768DAC02475E5A200FA3B79 /* SCRoundedButton.swift */; };
 		B768DAC32475E5F200FA3B79 /* SCRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768DAC22475E5F200FA3B79 /* SCRoundedView.swift */; };
@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		B70B36752464739B00E3E547 /* SCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCButton.swift; sourceTree = "<group>"; };
-		B74E6CF62464140200103777 /* SCToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCToggleButton.swift; sourceTree = "<group>"; };
+		B74E6CF62464140200103777 /* SCRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRadioButton.swift; sourceTree = "<group>"; };
 		B74E6CFA24641B1100103777 /* SCToggleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCToggleImageView.swift; sourceTree = "<group>"; };
 		B768DAC02475E5A200FA3B79 /* SCRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRoundedButton.swift; sourceTree = "<group>"; };
 		B768DAC22475E5F200FA3B79 /* SCRoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRoundedView.swift; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				B70B36752464739B00E3E547 /* SCButton.swift */,
-				B74E6CF62464140200103777 /* SCToggleButton.swift */,
+				B74E6CF62464140200103777 /* SCRadioButton.swift */,
 				B768DAC02475E5A200FA3B79 /* SCRoundedButton.swift */,
 			);
 			path = Buttons;
@@ -243,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B74E6CF72464140200103777 /* SCToggleButton.swift in Sources */,
+				B74E6CF72464140200103777 /* SCRadioButton.swift in Sources */,
 				B74E6CFB24641B1100103777 /* SCToggleImageView.swift in Sources */,
 				B7E86D61245E15DD0039A56D /* SCVStack.swift in Sources */,
 				B778299A245C4290009765B5 /* AdaptiveUI.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  SCToggleButton.swift
+//  SCRadioButton.swift
 //  https://github.com/denandreychuk/ScuffedUI
 //
 //  This code is distributed under the terms and conditions of the MIT license.
@@ -25,7 +25,7 @@
 
 import UIKit
 
-open class SCToggleButton: SCButton {
+open class SCRadioButton: SCButton {
     
     // MARK: - Properties
     
