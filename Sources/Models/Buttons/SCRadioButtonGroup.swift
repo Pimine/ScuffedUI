@@ -25,9 +25,11 @@
 
 import UIKit
 
-open class SCRadioButtonGroup: UIView {
+open class SCRadioButtonGroup: UIControl {
     
     // MARK: - Public properties
+    
+    public private(set) var selectedIndex = -1
     
     public var spacing: CGFloat {
         get { container.spacing }
@@ -70,20 +72,36 @@ open class SCRadioButtonGroup: UIView {
     // MARK: - Public methods
     
     public func setButtons(_ buttons: [UIButton]) {
-        container.arrangedSubviews.forEach {
+        
+        // Remove previous buttons
+        
+        buttons.forEach {
             container.removeArrangedSubview($0)
+            $0.removeTarget(self, action: #selector(onButtonPressed), for: .touchUpInside)
         }
+        
+        // Set new buttons
+        
         for button in buttons {
             container.addArrangedSubview(button)
             button.addTarget(self, action: #selector(onButtonPressed), for: .touchUpInside)
         }
     }
     
+    public func selectIndex(_ index: Int) {
+        guard buttons.indices.contains(index) else { return }
+        buttons[index].isSelected = true
+        selectedIndex = index
+    }
+    
     // MARK: - Action
     
     @objc private func onButtonPressed(_ sender: UIButton) {
         buttons.forEach { $0.isSelected = false }
+        
         sender.isSelected = true
+        selectedIndex = buttons.firstIndex(of: sender)!
+        sendActions(for: .valueChanged)
     }
 }
 
@@ -93,11 +111,16 @@ private extension SCRadioButtonGroup {
     
     func addAndLayoutSubviews() {
         
-        autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        
         // Container
         
         addSubview(container)
-        container.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        container.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            container.leadingAnchor.constraint(equalTo: leadingAnchor),
+            container.trailingAnchor.constraint(equalTo: trailingAnchor),
+            
+            container.topAnchor.constraint(equalTo: topAnchor),
+            container.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
     }
 }
