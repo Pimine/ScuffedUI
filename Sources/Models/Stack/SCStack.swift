@@ -1,9 +1,9 @@
 //
 //  SCStack.swift
-//  https://github.com/denandreychuk/ScuffedUI
+//  https://github.com/Pimine/ScuffedUI
 //
 //  This code is distributed under the terms and conditions of the MIT license.
-//  Copyright (c) 2020 Den Andreychuk
+//  Copyright (c) 2020 Pimine
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -39,8 +39,8 @@ open class SCStack: UIStackView {
     // MARK: - Initialization
     
     init(
-        arrangedSubviews: [UIView],
-        axis: NSLayoutConstraint.Axis,
+        arrangedSubviews: [UIView] = [],
+        axis: NSLayoutConstraint.Axis = .horizontal,
         spacing: CGFloat = 0.0,
         alignment: UIStackView.Alignment = .fill,
         distribution: UIStackView.Distribution = .fill) {
