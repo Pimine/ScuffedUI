@@ -32,8 +32,7 @@
 		B7E86D5D245E140E0039A56D /* SCStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E86D5C245E140E0039A56D /* SCStack.swift */; };
 		B7E86D5F245E15970039A56D /* SCHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E86D5E245E15970039A56D /* SCHStack.swift */; };
 		B7E86D61245E15DD0039A56D /* SCVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E86D60245E15DD0039A56D /* SCVStack.swift */; };
-		B7FB98962486BA23003412F4 /* SCRadionButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB98952486BA23003412F4 /* SCRadionButtonGroup.swift */; };
-		B7FB989A2486BFF9003412F4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB98992486BFF9003412F4 /* Utilities.swift */; };
+		B7FB98962486BA23003412F4 /* SCRadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB98952486BA23003412F4 /* SCRadioButtonGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,8 +49,7 @@
 		B7E86D5C245E140E0039A56D /* SCStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCStack.swift; sourceTree = "<group>"; };
 		B7E86D5E245E15970039A56D /* SCHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHStack.swift; sourceTree = "<group>"; };
 		B7E86D60245E15DD0039A56D /* SCVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCVStack.swift; sourceTree = "<group>"; };
-		B7FB98952486BA23003412F4 /* SCRadionButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRadionButtonGroup.swift; sourceTree = "<group>"; };
-		B7FB98992486BFF9003412F4 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B7FB98952486BA23003412F4 /* SCRadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRadioButtonGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				B7735CEE245C4C9C007C6DAD /* Logger.swift */,
-				B7FB98992486BFF9003412F4 /* Utilities.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -91,7 +88,7 @@
 				B70B36752464739B00E3E547 /* SCButton.swift */,
 				B74E6CF62464140200103777 /* SCRadioButton.swift */,
 				B768DAC02475E5A200FA3B79 /* SCRoundedButton.swift */,
-				B7FB98952486BA23003412F4 /* SCRadionButtonGroup.swift */,
+				B7FB98952486BA23003412F4 /* SCRadioButtonGroup.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -251,8 +248,7 @@
 				B778299A245C4290009765B5 /* AdaptiveUI.swift in Sources */,
 				B7E86D5D245E140E0039A56D /* SCStack.swift in Sources */,
 				B768DAC32475E5F200FA3B79 /* SCRoundedView.swift in Sources */,
-				B7FB98962486BA23003412F4 /* SCRadionButtonGroup.swift in Sources */,
-				B7FB989A2486BFF9003412F4 /* Utilities.swift in Sources */,
+				B7FB98962486BA23003412F4 /* SCRadioButtonGroup.swift in Sources */,
 				B768DAC12475E5A200FA3B79 /* SCRoundedButton.swift in Sources */,
 				B7E86D5F245E15970039A56D /* SCHStack.swift in Sources */,
 				B70B36762464739B00E3E547 /* SCButton.swift in Sources */,
