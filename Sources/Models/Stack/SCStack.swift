@@ -38,7 +38,7 @@ open class SCStack: UIStackView {
     
     // MARK: - Initialization
     
-    init(
+    public init(
         arrangedSubviews: [UIView] = [],
         axis: NSLayoutConstraint.Axis = .horizontal,
         spacing: CGFloat = 0.0,
