@@ -27,26 +27,10 @@ import UIKit
 
 open class SCRadioButton: SCButton {
     
-    // MARK: - Properties
-    
-    public var offImage: UIImage? {
-        didSet {
-            setImage(offImage, for: .normal)
-        }
-    }
-    
-    public var onImage: UIImage? {
-        didSet {
-            setImage(onImage, for: .selected)
-        }
-    }
-    
     // MARK: - Initialization
     
-    public init(offImage: UIImage? = nil, onImage: UIImage? = nil) {
-        self.offImage = offImage
-        self.onImage = onImage
-        super.init(frame: .zero)
+    override public init(frame: CGRect = .zero) {
+        super.init(frame: frame)
         commonInit()
     }
     
@@ -56,9 +40,6 @@ open class SCRadioButton: SCButton {
     }
     
     private func commonInit() {
-        setImage(offImage, for: .normal)
-        setImage(onImage, for: .selected)
-        
         addTarget(self, action: #selector(onButtonPressed), for: .touchUpInside)
     }
     
