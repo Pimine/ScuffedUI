@@ -31,7 +31,7 @@ open class SCDemoViewController: UIViewController {
     // MARK: - User Interface
 
     private lazy var titleLabel = configure(UILabel()) {
-        let typeName = String(describing: self)
+        let typeName = String(describing: type(of: self))
         $0.text = "Demo: \(typeName)\nScreen in development."
         $0.textColor = .black
         $0.textAlignment = .center
