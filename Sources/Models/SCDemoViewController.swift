@@ -26,7 +26,7 @@
 import UIKit
 import EasySwiftLayout
 
-public class SCDemoViewController: UIViewController {
+open class SCDemoViewController: UIViewController {
 
     // MARK: - User Interface
 
