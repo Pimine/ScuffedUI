@@ -33,7 +33,49 @@
 		B7E86D5F245E15970039A56D /* SCHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E86D5E245E15970039A56D /* SCHStack.swift */; };
 		B7E86D61245E15DD0039A56D /* SCVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E86D60245E15DD0039A56D /* SCVStack.swift */; };
 		B7FB98962486BA23003412F4 /* SCRadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB98952486BA23003412F4 /* SCRadioButtonGroup.swift */; };
+		EB4C043C24AB497A0040A309 /* SCDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C043B24AB497A0040A309 /* SCDemoViewController.swift */; };
+		EB4C044924AB4A9C0040A309 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C044824AB4A9C0040A309 /* Utilities.swift */; };
+		EB4C045A24AB4BFF0040A309 /* EasySwiftLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4C045224AB4B3C0040A309 /* EasySwiftLayout.framework */; };
+		EB4C045B24AB4BFF0040A309 /* EasySwiftLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4C045224AB4B3C0040A309 /* EasySwiftLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4C045124AB4B3C0040A309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4C044A24AB4B3C0040A309 /* EasySwiftLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7B6606222FF122B006FDD7E;
+			remoteInfo = EasySwiftLayout;
+		};
+		EB4C045324AB4B3C0040A309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4C044A24AB4B3C0040A309 /* EasySwiftLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7847717234B37DD002386DC;
+			remoteInfo = EasySwiftLayoutTests;
+		};
+		EB4C045524AB4B3C0040A309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4C044A24AB4B3C0040A309 /* EasySwiftLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7DB422A2471A096001FE565;
+			remoteInfo = "Example-IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB4C045C24AB4BFF0040A309 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EB4C045B24AB4BFF0040A309 /* EasySwiftLayout.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B70B36752464739B00E3E547 /* SCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCButton.swift; sourceTree = "<group>"; };
@@ -50,6 +92,9 @@
 		B7E86D5E245E15970039A56D /* SCHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHStack.swift; sourceTree = "<group>"; };
 		B7E86D60245E15DD0039A56D /* SCVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCVStack.swift; sourceTree = "<group>"; };
 		B7FB98952486BA23003412F4 /* SCRadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRadioButtonGroup.swift; sourceTree = "<group>"; };
+		EB4C043B24AB497A0040A309 /* SCDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDemoViewController.swift; sourceTree = "<group>"; };
+		EB4C044824AB4A9C0040A309 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EB4C044A24AB4B3C0040A309 /* EasySwiftLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasySwiftLayout.xcodeproj; path = EasySwiftLayout/EasySwiftLayout.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4C045A24AB4BFF0040A309 /* EasySwiftLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				B7735CEE245C4C9C007C6DAD /* Logger.swift */,
+				EB4C044824AB4A9C0040A309 /* Utilities.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -78,6 +125,7 @@
 				B768DABF2475E54300FA3B79 /* Buttons */,
 				B7E86D5A245E13D10039A56D /* SCEdge.swift */,
 				B768DAC22475E5F200FA3B79 /* SCRoundedView.swift */,
+				EB4C043B24AB497A0040A309 /* SCDemoViewController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,8 +153,10 @@
 		B7782984245C391A009765B5 = {
 			isa = PBXGroup;
 			children = (
+				EB4C044A24AB4B3C0040A309 /* EasySwiftLayout.xcodeproj */,
 				B7782990245C391A009765B5 /* Sources */,
 				B778298F245C391A009765B5 /* Products */,
+				EB4C045924AB4BFF0040A309 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +189,23 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
+		EB4C044B24AB4B3C0040A309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4C045224AB4B3C0040A309 /* EasySwiftLayout.framework */,
+				EB4C045424AB4B3C0040A309 /* EasySwiftLayoutTests.xctest */,
+				EB4C045624AB4B3C0040A309 /* Example-IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4C045924AB4BFF0040A309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -161,6 +228,7 @@
 				B778298A245C391A009765B5 /* Sources */,
 				B778298B245C391A009765B5 /* Frameworks */,
 				B778298C245C391A009765B5 /* Resources */,
+				EB4C045C24AB4BFF0040A309 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +268,12 @@
 			mainGroup = B7782984245C391A009765B5;
 			productRefGroup = B778298F245C391A009765B5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EB4C044B24AB4B3C0040A309 /* Products */;
+					ProjectRef = EB4C044A24AB4B3C0040A309 /* EasySwiftLayout.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B778298D245C391A009765B5 /* ScuffedUI */,
@@ -207,6 +281,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EB4C045224AB4B3C0040A309 /* EasySwiftLayout.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EasySwiftLayout.framework;
+			remoteRef = EB4C045124AB4B3C0040A309 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EB4C045424AB4B3C0040A309 /* EasySwiftLayoutTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EasySwiftLayoutTests.xctest;
+			remoteRef = EB4C045324AB4B3C0040A309 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EB4C045624AB4B3C0040A309 /* Example-IOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Example-IOS.app";
+			remoteRef = EB4C045524AB4B3C0040A309 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B778298C245C391A009765B5 /* Resources */ = {
@@ -247,9 +345,11 @@
 				B7E86D61245E15DD0039A56D /* SCVStack.swift in Sources */,
 				B778299A245C4290009765B5 /* AdaptiveUI.swift in Sources */,
 				B7E86D5D245E140E0039A56D /* SCStack.swift in Sources */,
+				EB4C044924AB4A9C0040A309 /* Utilities.swift in Sources */,
 				B768DAC32475E5F200FA3B79 /* SCRoundedView.swift in Sources */,
 				B7FB98962486BA23003412F4 /* SCRadioButtonGroup.swift in Sources */,
 				B768DAC12475E5A200FA3B79 /* SCRoundedButton.swift in Sources */,
+				EB4C043C24AB497A0040A309 /* SCDemoViewController.swift in Sources */,
 				B7E86D5F245E15970039A56D /* SCHStack.swift in Sources */,
 				B70B36762464739B00E3E547 /* SCButton.swift in Sources */,
 				B7E86D5B245E13D10039A56D /* SCEdge.swift in Sources */,

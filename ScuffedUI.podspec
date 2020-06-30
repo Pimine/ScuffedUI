@@ -16,7 +16,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.swift_version = '5.0'
-  s.source_files = 'Sources/**/*.swift'
+  s.swift_version   = ['5.1', '5.2']
+  s.default_subspec = 'Core'
+
+  # Core
+  s.subspec 'Core' do |ss|
+    ss.source_files = 'Sources/**/*.swift'
+    ss.dependency 'EasySwiftLayout'
+  end
 
 end
