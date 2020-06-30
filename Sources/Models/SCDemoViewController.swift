@@ -40,7 +40,7 @@ open class SCDemoViewController: UIViewController {
     
     // MARK: - View controller lifecycle
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         configureAppearance()
         addAndLayoutSubviews()
