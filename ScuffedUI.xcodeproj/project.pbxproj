@@ -34,6 +34,7 @@
 		B7E86D61245E15DD0039A56D /* SCVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E86D60245E15DD0039A56D /* SCVStack.swift */; };
 		B7FB98962486BA23003412F4 /* SCRadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB98952486BA23003412F4 /* SCRadioButtonGroup.swift */; };
 		EB20497124B4E87300DC4B91 /* SCKeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20497024B4E87300DC4B91 /* SCKeyboardDismissingView.swift */; };
+		EB45FCC224EA8C3300B36A30 /* SCSelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45FCC124EA8C3300B36A30 /* SCSelfSizedTableView.swift */; };
 		EB4C043C24AB497A0040A309 /* SCDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C043B24AB497A0040A309 /* SCDemoViewController.swift */; };
 		EB4C044924AB4A9C0040A309 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C044824AB4A9C0040A309 /* Utilities.swift */; };
 		EB4C045A24AB4BFF0040A309 /* EasySwiftLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4C045224AB4B3C0040A309 /* EasySwiftLayout.framework */; };
@@ -94,6 +95,7 @@
 		B7E86D60245E15DD0039A56D /* SCVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCVStack.swift; sourceTree = "<group>"; };
 		B7FB98952486BA23003412F4 /* SCRadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRadioButtonGroup.swift; sourceTree = "<group>"; };
 		EB20497024B4E87300DC4B91 /* SCKeyboardDismissingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCKeyboardDismissingView.swift; sourceTree = "<group>"; };
+		EB45FCC124EA8C3300B36A30 /* SCSelfSizedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSelfSizedTableView.swift; sourceTree = "<group>"; };
 		EB4C043B24AB497A0040A309 /* SCDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDemoViewController.swift; sourceTree = "<group>"; };
 		EB4C044824AB4A9C0040A309 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EB4C044A24AB4B3C0040A309 /* EasySwiftLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasySwiftLayout.xcodeproj; path = EasySwiftLayout/EasySwiftLayout.xcodeproj; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				B7E86D5A245E13D10039A56D /* SCEdge.swift */,
 				B768DAC22475E5F200FA3B79 /* SCRoundedView.swift */,
 				EB4C043B24AB497A0040A309 /* SCDemoViewController.swift */,
+				EB45FCC124EA8C3300B36A30 /* SCSelfSizedTableView.swift */,
 				EB20497024B4E87300DC4B91 /* SCKeyboardDismissingView.swift */,
 			);
 			path = Models;
@@ -346,6 +349,7 @@
 			files = (
 				B74E6CF72464140200103777 /* SCRadioButton.swift in Sources */,
 				B7E86D61245E15DD0039A56D /* SCVStack.swift in Sources */,
+				EB45FCC224EA8C3300B36A30 /* SCSelfSizedTableView.swift in Sources */,
 				B778299A245C4290009765B5 /* AdaptiveUI.swift in Sources */,
 				B7E86D5D245E140E0039A56D /* SCStack.swift in Sources */,
 				EB4C044924AB4A9C0040A309 /* Utilities.swift in Sources */,
