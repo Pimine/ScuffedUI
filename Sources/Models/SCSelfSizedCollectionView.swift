@@ -25,7 +25,7 @@
 
 import UIKit
 
-open class SCSelfSizedCollectionView: UITableView {
+open class SCSelfSizedCollectionView: UICollectionView {
     
     override open var intrinsicContentSize: CGSize {
         self.layoutIfNeeded()

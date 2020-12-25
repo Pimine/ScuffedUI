@@ -133,8 +133,8 @@
 				B768DAC22475E5F200FA3B79 /* SCRoundedView.swift */,
 				EB4C043B24AB497A0040A309 /* SCDemoViewController.swift */,
 				EB45FCC124EA8C3300B36A30 /* SCSelfSizedTableView.swift */,
-				EB20497024B4E87300DC4B91 /* SCKeyboardDismissingView.swift */,
 				EBB5B8132596A5A600F8B7E1 /* SCSelfSizedCollectionView.swift */,
+				EB20497024B4E87300DC4B91 /* SCKeyboardDismissingView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
