@@ -39,6 +39,7 @@
 		EB4C044924AB4A9C0040A309 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C044824AB4A9C0040A309 /* Utilities.swift */; };
 		EB4C045A24AB4BFF0040A309 /* EasySwiftLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4C045224AB4B3C0040A309 /* EasySwiftLayout.framework */; };
 		EB4C045B24AB4BFF0040A309 /* EasySwiftLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB4C045224AB4B3C0040A309 /* EasySwiftLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EBB5B8142596A5A600F8B7E1 /* SCSelfSizedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB5B8132596A5A600F8B7E1 /* SCSelfSizedCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		EB4C043B24AB497A0040A309 /* SCDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDemoViewController.swift; sourceTree = "<group>"; };
 		EB4C044824AB4A9C0040A309 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EB4C044A24AB4B3C0040A309 /* EasySwiftLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasySwiftLayout.xcodeproj; path = EasySwiftLayout/EasySwiftLayout.xcodeproj; sourceTree = "<group>"; };
+		EBB5B8132596A5A600F8B7E1 /* SCSelfSizedCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSelfSizedCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				EB4C043B24AB497A0040A309 /* SCDemoViewController.swift */,
 				EB45FCC124EA8C3300B36A30 /* SCSelfSizedTableView.swift */,
 				EB20497024B4E87300DC4B91 /* SCKeyboardDismissingView.swift */,
+				EBB5B8132596A5A600F8B7E1 /* SCSelfSizedCollectionView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB5B8142596A5A600F8B7E1 /* SCSelfSizedCollectionView.swift in Sources */,
 				B74E6CF72464140200103777 /* SCRadioButton.swift in Sources */,
 				B7E86D61245E15DD0039A56D /* SCVStack.swift in Sources */,
 				EB45FCC224EA8C3300B36A30 /* SCSelfSizedTableView.swift in Sources */,
