@@ -45,6 +45,7 @@ final public class ScuffedLayoutManager: ObservableObject {
     
     static public var brandMargins: [UIInterfaceOrientation: CGFloat] = [:]
     
+    @available(iOSApplicationExtension, unavailable)
     static public var brandMargin: CGFloat {
         guard let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
             return 15.scaledByWidth

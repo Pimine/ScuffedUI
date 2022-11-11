@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name 		= 'ScuffedUI'
-  s.version 		     = '0.12.0'
+  s.version 		     = '0.12.1'
   s.summary          = 'Frequently used custom UI elements.'
 
   s.description      = 'This framework contains frequently used custom UI elements.'
