@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name 		= 'ScuffedUI'
-  s.version 		     = '0.11.0'
+  s.version 		     = '0.12.0'
   s.summary          = 'Frequently used custom UI elements.'
 
   s.description      = 'This framework contains frequently used custom UI elements.'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/Pimine/ScuffedUI.git', 
     :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '13.0'
 
   s.swift_version   = ['5.1', '5.2']
   s.default_subspec = 'Core'
