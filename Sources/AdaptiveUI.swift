@@ -71,6 +71,7 @@ extension BinaryInteger {
     public var scaledByWidth:  CGFloat { CGFloat(self) * ScuffedLayoutManager.scaledFactorWidth }
     public var scaledByHeight: CGFloat { CGFloat(self) * ScuffedLayoutManager.scaledFactorHeight }
     
+    @available(iOSApplicationExtension, unavailable)
     public static var brandMargin: CGFloat { ScuffedLayoutManager.brandMargin }
 }
 
@@ -78,5 +79,6 @@ extension BinaryFloatingPoint {
     public var scaledByWidth:  CGFloat { CGFloat(self) * ScuffedLayoutManager.scaledFactorWidth }
     public var scaledByHeight: CGFloat { CGFloat(self) * ScuffedLayoutManager.scaledFactorHeight }
     
+    @available(iOSApplicationExtension, unavailable)
     public static var brandMargin: CGFloat { ScuffedLayoutManager.brandMargin }
 }
