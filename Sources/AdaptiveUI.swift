@@ -25,7 +25,7 @@
 
 import UIKit
 
-final public class ScuffedLayoutManager {
+final public class ScuffedLayoutManager: ObservableObject {
     
     // MARK: - Properties
     
@@ -33,16 +33,25 @@ final public class ScuffedLayoutManager {
     
     static var scaledFactorWidth: CGFloat {
         validatePrimaryDesignResolution()
-        return screenSize.width / primaryDesignResolution.width
+        return min(screenSize.height, screenSize.width) / primaryDesignResolution.width
     }
     
     static var scaledFactorHeight: CGFloat {
         validatePrimaryDesignResolution()
-        return screenSize.height / primaryDesignResolution.height
+        return max(screenSize.height, screenSize.width) / primaryDesignResolution.height
     }
     
     static public var primaryDesignResolution: CGSize = .zero
-    static public var brandMargin: CGFloat = 15.scaledByWidth
+    
+    static public var brandMargins: [UIInterfaceOrientation: CGFloat] = [:]
+    
+    static public var brandMargin: CGFloat {
+        guard let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
+            return 15.scaledByWidth
+        }
+        let interfaceOrientation = scene.interfaceOrientation
+        return brandMargins[interfaceOrientation] ?? 15.scaledByWidth
+    }
     
     // MARK: - Initialization
     
